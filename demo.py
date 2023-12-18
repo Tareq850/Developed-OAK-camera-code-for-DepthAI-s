@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+#First, go to the official website of the camera and download its code,
+#then delete the demo.py file and put this file instead in order to
+#measure the angles for the push-up exercise and write them on the screen.
+#You can adapt the code in order to measure other angles by changing the point numbers only.
+
+
 import cv2
 from math import atan2, degrees
 import argparse
